@@ -1,0 +1,211 @@
+/* samy baroud */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Rubik-Regular ;
+    src: url(../font/Rubik-Regular.ttf);
+}
+@font-face{
+    font-family: Rubik-Medium ;
+    src: url(../font/Rubik-Medium.ttf);
+}
+/* menu par */
+
+.menu-par{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+.icon-img-logo{
+    padding: 10px 0px;
+}
+.fa-bookmark{
+    background-color: #5267DF;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    padding: 6px;
+    margin-right:8px ;
+    color: #FFFFFF;
+}
+.list{
+   padding-right: 40px;
+   font-family: Rubik-Regular;
+}
+.list:hover{
+    color: rgb(145,148 ,162 );
+}
+.login{
+    font-family: Rubik-Medium;
+    background-color: #FA5959;
+    padding: 13px 40px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    /* color: #FFFFFF; */
+    font-size: 13px;
+}
+.login:hover{
+    background-color: #f88e8e;
+}
+/* home img description */
+.home-section{
+    width: 100%;
+    min-height: 500px;
+}
+.home-img-description{
+    display: flex;
+    padding: 0px 50px 0px 150px;
+   
+}
+.description-home{
+   padding: 100px 0px;
+  
+   
+}
+.title-home{
+    font-family:Rubik-Medium ;
+    font-size: 48px;
+}
+.description-title-home{
+    font-family:Rubik-Regular ;
+    font-size: 18px; 
+    padding-right: 10%;
+    padding-top: 10px;
+    color: #9194A2;
+}
+.button-home{
+    padding: 15px 25px;
+    border-radius: 3px;
+    border: none;
+    color:rgb(255, 255, 255);
+    background-color:#5267DF;
+}
+
+.button-home:hover{
+    background-color: #F7F7F7;
+    color: black;
+}
+.buttenes{
+    padding-top: 30px;
+}
+/* account img description */
+.account-img-description{
+    display: flex;
+    padding: 0px 50px 0px 150px; 
+}
+.title-account{
+    font-family:Rubik-Medium ;
+    font-size: 32px;
+}
+.description-account{
+    padding: 100px 200px;
+}
+.button-account{
+    background-color: #5267DF;
+    padding: 10px 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+.button-account:hover{
+    background-color: #F7F7F7;
+    color: black;
+}
+.descriptoin-title-account{
+    padding: 20px 0px;
+    line-height: 20px;
+    color: #9194A2;
+}
+/* text */
+.text{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.text-extension{
+    font-family:Rubik-Medium ;
+    font-size: 32px;
+}
+.text-browsers{
+    font-family: Rubik-Regular;
+    font-size: 18px;
+    padding: 10px 450px 0px 450px;
+    color: #9194A2;
+}
+/* browsers */
+.browsers{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 50px 250px 250px 250px;
+    
+}
+.browser-chrome{
+    text-align: center;
+    line-height: 30px;
+    width: 280px;
+    height: 371px;
+    box-sizing: border-box;
+    padding-top: 22.5px;
+    box-shadow: inset 0px 0px 0.5px 0px;
+}
+.browser-firfox{
+    text-align: center;
+    line-height: 30px;
+    border: solid black transparent;
+    width: 280px;
+    height: 371px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 0.5px 0px;
+    
+}
+.browser-obera{
+    text-align: center;
+    line-height: 30px;
+    border: solid black transparent;
+    width: 280px;
+    height: 371px;
+    box-sizing: border-box;
+    padding-top: 11px;
+    box-shadow: inset 0px 0px 0.5px 0px;
+}
+
+.add{
+    font-family: Rubik-Medium;
+    font-size: 20px;
+ 
+}
+.version{
+    font-family: Rubik-Regular;
+    font-size: 15px;
+    padding-bottom: 25px;
+    color: #9194A2;
+}
+.line{
+     border-top: 5px #9194A2; 
+    border-top-style: dotted ;
+}
+.install{
+    background-color: #5267DF;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+}
+.install:hover{
+    background-color: #F7F7F7;
+    color: black;
+}
+/* end pag */
+.end-pag{
+    background-color: #9194A2;
+    text-align: center;
+    color: #FFFFFF;
+    height: 50px;
+    
+}
+
